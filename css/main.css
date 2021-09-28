@@ -152,3 +152,21 @@ header {
   margin-left: -4rem;
   margin-right: 4rem;
 }
+
+div {
+  margin-bottom: 1rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+article {
+  margin-top: -.4rem;
+}
+
+article a {
+
+}
