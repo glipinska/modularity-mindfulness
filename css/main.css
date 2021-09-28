@@ -27,16 +27,20 @@ img {
   padding: 1rem;
 }
 
-main {
-  align-items center;
-  margin-bottom: 1rem;
-}
-
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem .5rem;
+}
+
+main {
+  align-items center;
+  margin-bottom: 1rem;
+}
+
+main i {
+  margin-bottom: 1rem;
 }
 
 h1 {
@@ -49,7 +53,27 @@ h1 {
 }
 
 h1 span {
-  font-size: 1.125rem;
+  font-size: 1.1rem;
+}
+
+a {
+  font-size: 1rem;
+  color: #3783a3;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+article a {
+  text-decoration: none;
+  border: .2rem solid rgba(55, 131, 163, .4);
+  padding: .5em 1em .5em;
+  border-radius: .3rem;
+  margin-top: auto;
+  font-size: 1rem;
+}
+
+article {
+  display: grid;
 }
 
 nav ul {
@@ -58,63 +82,51 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+  margin-bottom: -1rem;
+  padding-bottom: .2rem;
 }
 
-a {
-  color: #3783a3;
+h2 {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  margin-top: .5rem;
 }
 
-nav li {
-  font-size: 1.125rem;
-  padding: 0 .5em;
+h2 span {
+  font-size: 1rem;
+  display: flex;
 }
 
 .intro {
   border-top: .2rem solid #e2e2e2;
   border-bottom: .2rem solid #e2e2e2;
-  padding: 1rem;
-  margin: 1.5rem 0;
-}
-
-div i {
-  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1em;
+  padding-top: .5rem;
+  margin-top: 1rem;
+  align-items: center;
   text-align: center;
-  display: inline-block;
+  font-size: 2rem;
 }
 
 div p {
   text-align: center;
-}
-
-section {
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  justify-content: center;
-}
-
-h2 {
-  display: flex;
-  flex-direction: column;
-}
-
-h2 span {
-  font-size: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 article p {
-  margin: 0 0 1.5rem;
+  margin: 1rem;
 }
 
-article a {
-  border: .2rem solid rgba(55, 131, 163, .4);
-  padding: .5rem 1em .5em;
-  padding: .5em 1em .5em;
-  border-radius: .3rem;
-  margin-top: auto;
+p {
+  font-size: 1rem;
 }
 
-footer {
-  padding: 1rem;
+footer p {
   border-top: .2rem solid #e2e2e2;
   text-align: center;
+  font-size: .8rem;
+  padding-top: 1rem;
+  margin-bottom: -1rem;
 }
