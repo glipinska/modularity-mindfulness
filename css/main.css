@@ -143,3 +143,12 @@ header {
   align-items: center;
   margin-bottom: -1rem;
 }
+
+.intro {
+  align-content: center;
+  align-items: center;
+  padding-right: 1em;
+  padding-left: 8rem;
+  margin-left: -4rem;
+  margin-right: 4rem;
+}
