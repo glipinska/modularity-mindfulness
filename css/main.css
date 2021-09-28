@@ -130,3 +130,16 @@ footer p {
   padding-top: 1rem;
   margin-bottom: -1rem;
 }
+
+@media only screen and (min-width: 38em) {
+
+  h1 {
+    align-items: start;
+}
+
+header {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -1rem;
+}
