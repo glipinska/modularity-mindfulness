@@ -164,6 +164,7 @@ section {
 }
 
 article {
+  margin-bottom: 1.5rem;
   margin-top: -.4rem;
 }
 
@@ -173,4 +174,8 @@ article a {
 
 article p {
   margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: -1rem;
 }
